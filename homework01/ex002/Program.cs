@@ -10,4 +10,5 @@ if (max<c)
 {
   max = c; 
 }
-    Console.WriteLine("a = "+ a + ", b = "+ b + ", c = " + c + ", max = "+ max); 
+    Console.WriteLine("a = "+ a + ", b = "+ b + ", c = " + c + ", max = " + max); 
+    
