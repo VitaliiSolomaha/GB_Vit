@@ -3,9 +3,16 @@
 //645 -> 5
 //78 -> третьей цифры нет
 //32679 -> 6
-string str =  Console.ReadLine(); 
-char [] ar = str.ToCharArray;
-//for (int i = 0; i < str.lenght; i++)
-//{
-//    Console.Write(ar[i]);
-//}
+int value = Convert.ToInt32(Console.ReadLine());
+if (value < 100) 
+{
+    Console.WriteLine("третьей цифры нет");
+}
+else
+{
+    while ( value > 999 )
+    {
+        value = value / 10;
+    }
+    Console.WriteLine(value % 10);
+}
